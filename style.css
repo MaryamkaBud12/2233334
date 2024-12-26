@@ -1,0 +1,243 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap');
+a{
+    text-decoration: none;
+    color: #000;
+}
+
+.logo{
+    width: 100px;
+    position: absolute;
+}
+
+.header{
+    display:flex;
+    justify-content: space-between ;
+    width: 50%;
+    float: right;
+    padding: 15px 0 15px 0;
+    font-family: "Ubuntu";
+    font-weight: 400;
+    font-size: 15px;
+}
+
+.cover1{
+   display: flex;
+   justify-content: center;
+   width: 1350px;
+
+}
+
+.block{
+    text-align: center;
+    font-family: "Ubuntu";
+}
+
+.text1{
+    font-weight: 500;
+    font-size: 25px;
+    text-transform: uppercase;
+    padding: 30px 0 0 0;
+}
+
+.text2{
+    font-size: 18px;
+    padding: 20px 0 0 0;
+    font-weight: 400;
+}
+
+.text3{
+    font-size: 18px;
+    font-weight: 400;
+}
+
+.block2{
+    font-family: "Ubuntu";
+}
+
+.text4{
+    font-weight: 500;
+    font-size: 25px;
+    padding: 30px 0 0 0;
+}
+
+.text5{
+    font-weight: 300;
+}
+
+.text6{
+    font-weight: 300;
+}
+
+.text7{
+    font-weight: 300;
+}
+
+.text8{
+    font-weight: 300;
+}
+.photo1{
+    width: 300px;
+
+}
+.photo2{
+    width: 300px;
+}
+.photo3{
+    width: 300px;
+}
+.photo4{
+    width: 300px;
+}
+.end{
+    width: 1350px;
+}
+.black{
+   background-color: black;
+   color: aliceblue;
+   padding: 5px 5px 5px 5px;
+   font-size: 15px;
+}
+.photoes1{
+   width: 200px;
+}
+.photoes2{
+    width: 200px;
+}
+.photoes3{
+    width: 200px;
+}
+.photo6{
+    width: 1350px;
+}
+.girl{
+    width: 1350px;
+}
+.end{
+    width: 1350px;
+}
+.grid_body{
+    display: grid;
+    width: 30%;
+    transform: translate(900px,-50%);
+    grid-template: repeat(2, 1fr)/ repeat(2, 1fr);
+    justify-items: center;
+    row-gap: 20px;
+}
+.grid_body:first-child{
+    align-items: start;
+}
+.grid1{
+    display: grid;
+}
+.grid1_body{
+    display: grid;
+    width: 30%;
+    transform: translate(0px,0%);
+    grid-template: repeat(2, 1fr)/ repeat(3, 1fr);
+    justify-items: center;
+    column-gap: 40px;
+    margin: 0 0 0 15%;
+}
+.grid2_body{
+    display: grid;
+    width: 50%;
+    transform: translate(0px,0%);
+    grid-template: repeat(2, 1fr)/ repeat(3, 1fr);
+    justify-items: center;
+    column-gap: 60px;
+    padding: 0 0 0 70px;
+}
+.grid_text{
+    display: grid;
+    width: 90%;
+    transform: translate(0px,-200px);
+    grid-template: repeat(2, 1fr)/ repeat(3, 1fr);
+    justify-items: center;
+    column-gap: 80px;
+    padding: 0 0 0 60px;
+    font-family: "Ubuntu";
+}
+.block{
+    font-family: "Ubuntu";
+    text-align: center;
+}
+.block2{
+    font-family: "Ubuntu";
+    text-align: left;
+}
+.text{
+   font-family: "Ubuntu";
+   text-align: center;
+}
+.photo{
+    display: grid;
+    width: 40%;
+    transform: translate(900px,-50%);
+    grid-template: repeat(2, 1fr)/ repeat(2, 1fr);
+    justify-items: center;
+    row-gap: 20px;
+}
+.flower{
+    width: 300px;
+}
+.wilki{
+    width: 300px;
+}
+.room{
+    width: 300px;
+}
+.write{
+    font-family: "Ubuntu";
+    text-align: center;
+}
+.unique{
+    color: orange;
+    
+}
+.text{
+    text-align: left;
+}
+.text14{
+    padding: 40px 0px 0px 50px;
+    font-weight: bolder;
+    font-size: 250%;
+}
+.figura{
+    padding: 0px 0px 0px 50px;
+    font-size: 100%;
+}
+.grid{
+    display: grid;
+    grid-template:repeat(2, 1fr)/ repeat(2, 1fr);
+    justify-items: center;
+    
+    
+}
+.grid_body{
+    display: grid;
+    width: 40%;
+    transform: translate(300px,-50%);
+    grid-template:repeat(2, 1fr)/ repeat(2, 1fr);
+    justify-items: center;
+    row-gap: 20px;
+    column-gap: 30px;
+    
+}
+.grid_body:first-child{
+    align-items: start;
+}
+.photo1{
+    width: 200px;
+}
+.photo2{
+    width: 200px;
+}
+.photo3{
+    width: 200px;
+}
+.photo4{
+    width: 200px;
+}
+.block1{
+    font-family: "Ubuntu";
+}
